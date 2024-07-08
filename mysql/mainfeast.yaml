@@ -4,7 +4,8 @@ apiVersion: apps/v1
 metadata:
   name: mysql
   namespace: expense
-  # these labels are getting uniqueness of the project   labels:
+  # these labels are deployment related labels
+  labels:
     component: mysql
     project: expense
     tier: db
