@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: joindevops/backend:v1.0
+        image: nirmaladevops12/label1.0
         resources:
           requests:
             cpu: "100m"
