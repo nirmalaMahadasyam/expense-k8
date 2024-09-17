@@ -29,19 +29,20 @@ spec:
         image: nirmaladevops12/label1.0  # dockerhub pushed image complete path
 
         
-#--- service code (adv: pod to pod connection establish and loadbalencer with multiple pods)
+---
 apiVersion: v1
 kind: Service
 metadata:
-  name: mysql
-  namespace: expense # compulsary to give the namespace then only connect sql and backend.
+   name: mysql
+   namespace: expense # compulsary to give the namespace then only connect sql and backend.
 spec:
-  selector:
-    component: mysql
-    project: expense
-    tier: db
-  ports:
-  - protocol: TCP
-    port: 3306 #service-port
-    targetPort: 3306 #target-port
+   selector:
+     component: mysql
+     project: expense
+     tier: db
+   ports:
+    - protocol: TCP
+      port: 3306 #service-port
+      targetPort: 3306 #target-port
+      ##--- service code (adv: pod to pod connection establish and loadbalencer with multiple pods)
 

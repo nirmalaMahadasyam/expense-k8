@@ -91,7 +91,9 @@ data:
         }
 
     }
+    
 ---
+# above configuration code from expense-docker---->frontend--->expense.conf
 kind: Deployment
 apiVersion: apps/v1
 metadata:
