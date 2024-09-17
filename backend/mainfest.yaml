@@ -33,7 +33,9 @@ spec:
     spec:
       containers:
       - name: backend
-        image: nirmaladevops12/label1.0
+        image: 851725509871.dkr.ecr.us-east-1.amazonaws.com/backend:v1.0
+ 
+        #image: nirmaladevops12/label1.0
         resources:
           requests:
             cpu: "100m"

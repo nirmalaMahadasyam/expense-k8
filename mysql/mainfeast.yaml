@@ -26,7 +26,8 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: nirmaladevops12/label1.0  # dockerhub pushed image complete path
+        image: 851725509871.dkr.ecr.us-east-1.amazonaws.com/mysql:v1.0  
+        #image: nirmaladevops12/label1.0  # dockerhub pushed image complete path
 
         
 ---

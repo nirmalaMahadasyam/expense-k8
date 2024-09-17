@@ -121,7 +121,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: joindevops/frontend:v1.0
+        image: 851725509871.dkr.ecr.us-east-1.amazonaws.com/frontend:v1.0
+      #  image: joindevops/frontend:v1.0
         resources:
           requests:
             cpu: "100m"
